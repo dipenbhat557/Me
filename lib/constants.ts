@@ -33,7 +33,7 @@ export const experiences = [
   {
     title: "Chief Technology Officer",
     company: "AIPrep",
-    url: "https://aiprep.in",
+    url: "https://promptanim.com",
     logo: "/images/companies/aiprep.png",
     period: "September 2025 - Present",
     points: [
@@ -119,7 +119,7 @@ export const projects: Project[] = [
     name: "AIPrep",
     description:
       "AI video generation platform that orchestrates multiple LLMs to create animated educational videos with Manim. Features intelligent model routing, distributed rendering on GKE, and RAG pipelines for content accuracy.",
-    url: "https://aiprep.in",
+    url: "https://promptanim.com",
     github: null,
     image: "/images/projects/aiprep.png",
     tags: ["Python", "FastAPI", "LLM", "Celery", "GKE", "Kubernetes", "RAG"],

@@ -55,7 +55,7 @@ export default function Hero() {
         >
           I lead engineering at{" "}
           <a
-            href="https://aiprep.in"
+            href="https://promptanim.com"
             target="_blank"
             rel="noopener noreferrer"
             className="text-accent hover:underline"

@@ -90,7 +90,7 @@ const jsonLd = {
   worksFor: {
     "@type": "Organization",
     name: "AIPrep",
-    url: "https://aiprep.in",
+    url: "https://promptanim.com",
   },
   description:
     "CTO & Co-founder at AIPrep. Building intelligent systems at scale. Expert in AI infrastructure, LLM orchestration, Kubernetes, and full-stack development.",

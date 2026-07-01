@@ -7,7 +7,7 @@ dipenbhat557@gmail.com | dipen.info | GitHub | LinkedIn | X
 ## Experience
 
 **Co-founder & Lead Engineer** | Sep 2025 – Present
-AIPrep (aiprep.in) | Remote
+AIPrep (promptanim.com) | Remote
 
 - Built an AI video generation platform from zero — orchestrates multiple LLMs with Manim to produce animated educational content, serving thousands of users
 - Designed a model routing system that selects the cheapest LLM per task complexity, cutting per-video costs by 80%
