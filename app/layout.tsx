@@ -5,20 +5,19 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://dipen.info"),
   title: {
-    default: "Dipendra Bhatta (Dipen) | CTO & Co-founder at AIPrep",
+    default: "Dipendra Bhatta (Dipen) | Full-Stack Engineer & Builder",
     template: "%s | Dipendra Bhatta",
   },
   description:
-    "Dipendra Bhatta (Dipen) - CTO & Co-founder at AIPrep. Building intelligent systems at scale. Expert in AI infrastructure, LLM orchestration, Kubernetes, distributed systems, and full-stack development.",
+    "Dipendra Bhatta (Dipen) - Full-Stack Engineer building with AI. Currently building PromptAnim. Expert in LLM orchestration, Kubernetes, distributed systems, and full-stack development.",
   keywords: [
     "Dipendra Bhatta",
     "Dipen",
     "Dipen Bhatta",
     "dipenbhat557",
-    "CTO of AIPrep",
-    "Co-founder AIPrep",
-    "CTO AIPrep",
+    "Full Stack Engineer",
     "AI Infrastructure Engineer",
+    "PromptAnim",
     "LLM orchestration",
     "Kubernetes",
     "GCP",
@@ -29,7 +28,6 @@ export const metadata: Metadata = {
     "FastAPI",
     "distributed systems",
     "Dipendra Bhatta portfolio",
-    "Dipendra Bhatta CTO",
     "dipen.info",
   ],
   authors: [{ name: "Dipendra Bhatta", url: "https://dipen.info" }],
@@ -39,9 +37,9 @@ export const metadata: Metadata = {
     canonical: "https://dipen.info",
   },
   openGraph: {
-    title: "Dipendra Bhatta (Dipen) | CTO & Co-founder at AIPrep",
+    title: "Dipendra Bhatta (Dipen) | Full-Stack Engineer & Builder",
     description:
-      "CTO & Co-founder at AIPrep. Building intelligent systems at scale. Expert in AI infrastructure, LLM orchestration, Kubernetes, and full-stack development.",
+      "Full-Stack Engineer building with AI. Currently building PromptAnim. Expert in LLM orchestration, Kubernetes, and full-stack development.",
     url: "https://dipen.info",
     siteName: "Dipendra Bhatta - Portfolio",
     locale: "en_US",
@@ -51,15 +49,15 @@ export const metadata: Metadata = {
         url: "/logo.png",
         width: 512,
         height: 512,
-        alt: "Dipendra Bhatta - CTO & Co-founder at AIPrep",
+        alt: "Dipendra Bhatta - Full-Stack Engineer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dipendra Bhatta (Dipen) | CTO & Co-founder at AIPrep",
+    title: "Dipendra Bhatta (Dipen) | Full-Stack Engineer & Builder",
     description:
-      "CTO & Co-founder at AIPrep. Building intelligent systems at scale.",
+      "Full-Stack Engineer building with AI. Currently building PromptAnim.",
     creator: "@dipenbhat557",
     images: ["/logo.png"],
   },
@@ -86,14 +84,14 @@ const jsonLd = {
   alternateName: ["Dipen", "Dipen Bhatta", "dipenbhat557"],
   url: "https://dipen.info",
   image: "https://dipen.info/logo.png",
-  jobTitle: "CTO & Co-founder",
+  jobTitle: "Full-Stack Engineer",
   worksFor: {
     "@type": "Organization",
-    name: "AIPrep",
+    name: "PromptAnim",
     url: "https://promptanim.com",
   },
   description:
-    "CTO & Co-founder at AIPrep. Building intelligent systems at scale. Expert in AI infrastructure, LLM orchestration, Kubernetes, and full-stack development.",
+    "Full-Stack Engineer building with AI. Currently building PromptAnim. Expert in LLM orchestration, Kubernetes, and full-stack development.",
   knowsAbout: [
     "Artificial Intelligence",
     "LLM Orchestration",

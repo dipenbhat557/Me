@@ -31,11 +31,11 @@ export const socialLinks = [
 
 export const experiences = [
   {
-    title: "Chief Technology Officer",
+    title: "Co-founder & Lead Engineer",
     company: "AIPrep",
-    url: "https://promptanim.com",
+    url: "https://aiprep.in",
     logo: "/images/companies/aiprep.png",
-    period: "September 2025 - Present",
+    period: "September 2025 - May 2026",
     points: [
       "Architected an AI video generation platform with custom modal orchestration and Manim rendering pipelines serving thousands of users",
       "Designed a model routing system that reduced per-video LLM costs by 80% through intelligent tier selection",
@@ -116,19 +116,19 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    name: "AIPrep",
+    name: "PromptAnim",
     description:
-      "AI video generation platform that orchestrates multiple LLMs to create animated educational videos with Manim. Features intelligent model routing, distributed rendering on GKE, and RAG pipelines for content accuracy.",
+      "An AI-powered animation tool that turns natural language prompts into videos. TypeScript-first with a browser-native rendering approach, built to stay lightweight and cost-efficient.",
     url: "https://promptanim.com",
     github: null,
-    image: "/images/projects/aiprep.png",
-    tags: ["Python", "FastAPI", "LLM", "Celery", "GKE", "Kubernetes", "RAG"],
+    image: "/images/projects/promptanim.png",
+    tags: ["TypeScript", "Next.js", "React", "AI", "Browser Rendering"],
     featured: true,
-    role: "CTO & Co-founder",
+    role: "Founder & Lead Engineer",
     metrics: [
-      { label: "Cost Reduction", value: "80%" },
-      { label: "Infrastructure", value: "GKE + Modal" },
-      { label: "Architecture", value: "Distributed" },
+      { label: "Phase", value: "Building" },
+      { label: "Stack", value: "TypeScript" },
+      { label: "Architecture", value: "Browser-first" },
     ],
   },
   {

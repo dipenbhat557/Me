@@ -31,7 +31,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          CTO & AI Infrastructure Engineer
+          Full-Stack Engineer · Building with AI
         </motion.p>
 
         <motion.h1
@@ -43,7 +43,7 @@ export default function Hero() {
           Building intelligent{" "}
           <span className="gradient-text">systems at scale</span>
           <span className="sr-only">
-            , by Dipendra Bhatta (Dipen), CTO & Co-founder at AIPrep
+            , by Dipendra Bhatta (Dipen), full-stack engineer building PromptAnim
           </span>
         </motion.h1>
 
@@ -53,17 +53,18 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          I lead engineering at{" "}
+          I&apos;m building{" "}
           <a
             href="https://promptanim.com"
             target="_blank"
             rel="noopener noreferrer"
             className="text-accent hover:underline"
           >
-            AIPrep
+            PromptAnim
           </a>
-          , where I architect AI video generation pipelines, orchestrate LLMs,
-          and deploy distributed systems on Kubernetes.
+          , an AI tool for turning natural language prompts into animations.
+          TypeScript-first, browser-native rendering, and built to stay
+          lightweight and cost-efficient.
         </motion.p>
 
         {/* Social links */}
