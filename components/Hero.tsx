@@ -31,7 +31,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          Full-Stack Engineer · Building with AI
+          Full-Stack Engineer · AI & Voice Systems
         </motion.p>
 
         <motion.h1
@@ -43,7 +43,8 @@ export default function Hero() {
           Building intelligent{" "}
           <span className="gradient-text">systems at scale</span>
           <span className="sr-only">
-            , by Dipendra Bhatta (Dipen), full-stack engineer building PromptAnim
+            , by Dipendra Bhatta (Dipen), full-stack engineer working on AI and
+            voice systems
           </span>
         </motion.h1>
 
@@ -53,7 +54,8 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          I&apos;m building{" "}
+          I build AI products end to end: LLM orchestration, speech and voice
+          pipelines, and the infrastructure behind them. Most recently I built{" "}
           <a
             href="https://promptanim.com"
             target="_blank"
@@ -61,10 +63,11 @@ export default function Hero() {
             className="text-accent hover:underline"
           >
             PromptAnim
-          </a>
-          , an AI tool for turning natural language prompts into animations.
-          TypeScript-first, browser-native rendering, and built to stay
-          lightweight and cost-efficient.
+          </a>{" "}
+          and led engineering at AIPrep.{" "}
+          <span className="text-foreground">
+            Open to new engineering roles.
+          </span>
         </motion.p>
 
         {/* Social links */}

@@ -8,9 +8,9 @@ import { HiCpuChip, HiCloud, HiCodeBracket } from "react-icons/hi2";
 const capabilities = [
   {
     icon: HiCpuChip,
-    title: "AI & ML Infrastructure",
+    title: "AI, Voice & LLM Systems",
     description:
-      "LLM orchestration, RAG pipelines, model routing, embedding systems, and cost optimization at scale.",
+      "LLM orchestration and model routing, speech-to-text and voice pipelines (Deepgram, ElevenLabs), RAG, and cost optimization at scale.",
   },
   {
     icon: HiCloud,
@@ -82,11 +82,12 @@ export default function About() {
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.1 }}
         >
-          I&apos;m Dipendra Bhatta, a full-stack engineer with a track record
-          of shipping production systems that scale. Currently building
-          PromptAnim, an AI-powered animation tool. I work across the full
-          stack in TypeScript, ship fast, and care about turning AI capabilities
-          into products people actually use.
+          I&apos;m Dipendra Bhatta, a full-stack engineer with a track record of
+          shipping production systems that scale. I&apos;ve built voice and
+          speech pipelines, LLM systems with real cost controls, and the cloud
+          infrastructure they run on. I work across the full stack in TypeScript
+          and Python, ship fast, and care about turning AI capabilities into
+          products people actually use.
         </motion.p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

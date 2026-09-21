@@ -32,6 +32,18 @@ export const socialLinks = [
 export const experiences = [
   {
     title: "Co-founder & Lead Engineer",
+    company: "PromptAnim",
+    url: "https://promptanim.com",
+    logo: null,
+    period: "May 2026 - September 2026",
+    points: [
+      "Built an AI animation tool that turns a text prompt into a narrated animation in under two minutes",
+      "Designed a browser-native rendering approach in TypeScript that kept per-video cost near zero",
+      "Ran the product end to end: architecture, build, and launch",
+    ],
+  },
+  {
+    title: "Co-founder & Lead Engineer",
     company: "AIPrep",
     url: "https://aiprep.in",
     logo: "/images/companies/aiprep.png",
@@ -49,10 +61,11 @@ export const experiences = [
     company: "Casebase",
     url: null,
     logo: "/images/companies/casebase.png",
-    period: "March 2025 - September 2025",
+    period: "March 2025 - August 2025",
     points: [
-      "Architected and implemented scalable backend solutions using Node.js and Express",
-      "Developed and maintained RESTful APIs with MongoDB integration",
+      "Built an AI meeting recorder that records and transcribes client meetings with Deepgram speech-to-text",
+      "Built an AI assistant that answers client questions for law firms across multiple US counties",
+      "Architected and implemented scalable backend solutions using Node.js and Express with MongoDB",
       "Implemented CI/CD pipelines using GitHub Actions for automated testing and deployment"
     ],
   },
@@ -74,7 +87,7 @@ export const experiences = [
     company: "Hyperce",
     url: null,
     logo: "/images/companies/hyperce.png",
-    period: "June 2024 - November 2024",
+    period: "August 2024 - November 2024",
     points: [
       "Developed microservices architecture using Docker and Kubernetes",
       "Implemented real-time features using WebSocket and Socket.io",
@@ -126,7 +139,7 @@ export const projects: Project[] = [
     featured: true,
     role: "Founder & Lead Engineer",
     metrics: [
-      { label: "Phase", value: "Building" },
+      { label: "Phase", value: "Shipped" },
       { label: "Stack", value: "TypeScript" },
       { label: "Architecture", value: "Browser-first" },
     ],

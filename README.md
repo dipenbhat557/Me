@@ -1,6 +1,6 @@
 # dipen.info
 
-Personal portfolio website of Dipendra Bhatta, full-stack engineer building [PromptAnim](https://promptanim.com).
+Personal portfolio website of Dipendra Bhatta, full-stack engineer working on AI, voice and LLM systems.
 
 **Live:** [dipen.info](https://dipen.info)
 

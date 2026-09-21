@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     template: "%s | Dipendra Bhatta",
   },
   description:
-    "Dipendra Bhatta (Dipen) - Full-Stack Engineer building with AI. Currently building PromptAnim. Expert in LLM orchestration, Kubernetes, distributed systems, and full-stack development.",
+    "Dipendra Bhatta (Dipen) - Full-Stack Engineer building AI, voice and LLM systems. Built PromptAnim and led engineering at AIPrep. Expert in LLM orchestration, Kubernetes, distributed systems, and full-stack development.",
   keywords: [
     "Dipendra Bhatta",
     "Dipen",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Dipendra Bhatta (Dipen) | Full-Stack Engineer & Builder",
     description:
-      "Full-Stack Engineer building with AI. Currently building PromptAnim. Expert in LLM orchestration, Kubernetes, and full-stack development.",
+      "Full-Stack Engineer building AI, voice and LLM systems. Built PromptAnim and led engineering at AIPrep. Open to new engineering roles.",
     url: "https://dipen.info",
     siteName: "Dipendra Bhatta - Portfolio",
     locale: "en_US",
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Dipendra Bhatta (Dipen) | Full-Stack Engineer & Builder",
     description:
-      "Full-Stack Engineer building with AI. Currently building PromptAnim.",
+      "Full-Stack Engineer building AI, voice and LLM systems. Open to new engineering roles.",
     creator: "@dipenbhat557",
     images: ["/logo.png"],
   },
@@ -85,16 +85,13 @@ const jsonLd = {
   url: "https://dipen.info",
   image: "https://dipen.info/logo.png",
   jobTitle: "Full-Stack Engineer",
-  worksFor: {
-    "@type": "Organization",
-    name: "PromptAnim",
-    url: "https://promptanim.com",
-  },
   description:
-    "Full-Stack Engineer building with AI. Currently building PromptAnim. Expert in LLM orchestration, Kubernetes, and full-stack development.",
+    "Full-Stack Engineer building AI, voice and LLM systems. Built PromptAnim and led engineering at AIPrep. Expert in LLM orchestration, Kubernetes, and full-stack development.",
   knowsAbout: [
     "Artificial Intelligence",
     "LLM Orchestration",
+    "Voice AI",
+    "Speech to Text",
     "Kubernetes",
     "Google Cloud Platform",
     "Full Stack Development",
